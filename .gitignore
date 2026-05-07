@@ -8,3 +8,4 @@ __pycache__/
 .venv/
 .turbo/
 *.log
+.aider*
