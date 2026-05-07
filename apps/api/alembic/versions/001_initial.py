@@ -40,3 +40,4 @@ def upgrade():
 def downgrade():
     op.drop_table('consent_records')
     op.drop_table('learner_events')
+# Add to upgrade() manually — open file and append before downgrade()
