@@ -1,7 +1,7 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import ingest, analytics
+from app.routers import ingest, analytics, lti
 
 app = FastAPI(title="EduSense API", version="0.1.0")
 
@@ -14,6 +14,7 @@ app.add_middleware(
 
 app.include_router(ingest.router)
 app.include_router(analytics.router)
+app.include_router(lti.router)
 
 @app.get("/health")
 async def health():
