@@ -11,3 +11,5 @@ __pycache__/
 .aider*
 apps/extension/.output/
 apps/extension/.wxt/
+apps/extension/.output/
+apps/extension/.wxt/
