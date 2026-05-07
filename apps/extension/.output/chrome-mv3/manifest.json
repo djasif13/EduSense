@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"EduSense","description":"Privacy-first learning friction intelligence","version":"1.0.0","permissions":["tabs","storage","scripting"],"host_permissions":["<all_urls>"],"background":{"service_worker":"background.js"},"action":{"default_title":"EduSense","default_popup":"popup.html"}}
