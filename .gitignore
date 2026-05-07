@@ -9,3 +9,5 @@ __pycache__/
 .turbo/
 *.log
 .aider*
+apps/extension/.output/
+apps/extension/.wxt/
